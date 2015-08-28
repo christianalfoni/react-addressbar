@@ -1,0 +1,31 @@
+{
+  "name": "react-addressbar",
+  "version": "0.1.0",
+  "description": "Take control of the addressbar in a reactive way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianalfoni/react-addressbar.git"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "url",
+    "state"
+  ],
+  "author": "Christian Alfoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianalfoni/react-addressbar/issues"
+  },
+  "homepage": "https://github.com/christianalfoni/react-addressbar#readme",
+  "dependencies": {
+    "addressbar": "^0.1.14"
+  },
+  "peerDependencies": {
+    "react": "^0.13.3"
+  }
+}
