@@ -3,6 +3,8 @@ Take control of the addressbar in a reactive way
 
 This component depends on [addressbar](https://github.com/christianalfoni/addressbar), a library that makes the addressbar work like an input. This means that you can work with the addressbar just like you do with a normal input. Typically you would combine this with something like [url-mapper](https://github.com/christianalfoni/url-mapper) to create your own flexible and custom routing logic.
 
+`npm install react-addressbar`
+
 ```js
 var React = require('react');
 var Addressbar = require('react-addressbar');
