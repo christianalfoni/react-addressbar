@@ -5,7 +5,7 @@ This component depends on [addressbar](https://github.com/christianalfoni/addres
 
 ```js
 var React = require('react');
-var Addressbar = require('./../../react-addressbar/index.js');
+var Addressbar = require('react-addressbar');
 
 var Test = React.createClass({
   getInitialState: function () {
