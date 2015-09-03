@@ -1,6 +1,6 @@
 {
   "name": "react-addressbar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Take control of the addressbar in a reactive way",
   "main": "index.js",
   "scripts": {
