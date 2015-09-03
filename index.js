@@ -25,7 +25,7 @@ module.exports = React.createClass({
     event.preventDefault();
     this.props.onChange(event.target.value);
   },
-  render() {
+  render: function () {
     return null;
   }
 });
