@@ -10,7 +10,7 @@ module.exports = React.createClass({
     addressbar.on('change', this.onUrlChange);
   },
   componentWillUnmount: function () {
-    addressbar.off('change', this.onUrlChange);
+    addressbar.removeListener('change', this.onUrlChange);
   },
   componentDidUpdate: function () {
     addressbar.value = this.props.value;
